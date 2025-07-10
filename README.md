@@ -32,7 +32,7 @@ All CSV files are **headerless** (`header=None`) and contain at least four colum
 
 The following `pandas` snippet demonstrates loading routines for training and testing phases.
 
-```python
+
 import pandas as pd
 
 # Assume file_list contains paths to CSV files, e.g.:
@@ -47,7 +47,7 @@ else:
 ```python
 
 ---
-## 4. Highlights & Use Cases
+### 4. Highlights & Use Cases
 
 - **Pool-Level Perspective**: Focused on cluster-level resources, ideal for macro capacity planning and auto-scaling algorithm evaluation.  
 - **Ease of Use**: Unified directory and file naming enable batch loading and preprocessing of key fields with minimal code.  
