@@ -32,11 +32,8 @@ All CSV files are **headerless** (`header=None`) and contain at least four colum
 
 The following `pandas` snippet demonstrates loading routines for training and testing phases.
 
-```python
-import pandas as pd
 
-# Assume file_list contains paths to CSV files, e.g.:
-# file_list = ['cluster1/cluster-dataseries-cpu-mem-202407_0.csv', ...]
+import pandas as pd
 
 if arg.is_training:
     # Training: read only Timestamp and CPU Usage columns
