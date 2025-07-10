@@ -31,8 +31,7 @@ All CSV files are **headerless** (`header=None`) and contain at least four colum
 ### 3. Quick Start
 
 The following `pandas` snippet demonstrates loading routines for training and testing phases.
-
-
+```
 import pandas as pd
 
 if arg.is_training:
@@ -41,6 +40,7 @@ if arg.is_training:
 else:
     # Testing: files contain only two columns (Timestamp, CPU Usage)
     dataset = [pd.read_csv(file_name, names=['timestamp', 'cpu(u)']) for file_name in file_list]
+```
 
 ---
 
