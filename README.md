@@ -44,7 +44,7 @@ if arg.is_training:
 else:
     # Testing: files contain only two columns (Timestamp, CPU Usage)
     dataset = [pd.read_csv(file_name, names=['timestamp', 'cpu(u)']) for file_name in file_list]
-```python
+
 
 ---
 ### 4. Highlights & Use Cases
