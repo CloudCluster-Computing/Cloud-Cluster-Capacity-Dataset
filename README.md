@@ -32,7 +32,7 @@ All CSV files are **headerless** (`header=None`) and contain at least four colum
 
 The following `pandas` snippet demonstrates loading routines for training and testing phases.
 
-
+```python
 import pandas as pd
 
 # Assume file_list contains paths to CSV files, e.g.:
@@ -45,8 +45,8 @@ else:
     # Testing: files contain only two columns (Timestamp, CPU Usage)
     dataset = [pd.read_csv(file_name, names=['timestamp', 'cpu(u)']) for file_name in file_list]
 
-
 ---
+
 ### 4. Highlights & Use Cases
 
 - **Pool-Level Perspective**: Focused on cluster-level resources, ideal for macro capacity planning and auto-scaling algorithm evaluation.  
