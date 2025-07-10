@@ -23,7 +23,7 @@ All CSV files are **headerless** (`header=None`) and contain at least four colum
 | ------------ | ------------- | --------------------------------- |
 | 0            | Cluster Name  | String identifier of the pool     |
 | 1            | Timestamp     | Datetime in format YYYY-MM-DD HH:MM:SS    |
-| 2            | —             | Irrelevant for modeling; can be ignored or retained |
+| 2            | —             | Irrelevant for modeling |
 | 3            | CPU Usage     | Raw CPU usage value for the pool at the timestamp |
 
 ---
