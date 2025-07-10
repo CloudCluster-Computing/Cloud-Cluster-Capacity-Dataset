@@ -1,4 +1,4 @@
-## Huawei Cloud Real-Time Cluster Resource Data
+## Huawei Cloud Cluster Capacity Dataset
 
 This repository hosts an open dataset of cloud resource clusters structured from a **Resource Pool** perspective, along with a prediction framework designed to streamline the workflow from raw telemetry to high-level capacity planning and scheduling algorithm development.
 
